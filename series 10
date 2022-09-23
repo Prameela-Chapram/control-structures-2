@@ -1,0 +1,9 @@
+#Write a program to generate the following series 95.0, 115.5, 138.0,..., 189.0
+n=int(input())
+a=95.0
+print(a)
+b=115.5
+print(b)
+for i in range (1,n-1):
+    b=(b+20.5)+(2*i)
+    print(b)
